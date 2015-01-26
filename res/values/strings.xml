@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Salute</string>
+    <string name="no_salutes">Add new salutes from the menu</string>
+    <string name="action_settings">Settings</string>
+    <string name="add_salute">Add salute!</string>
+    <string name="name_hint">namn</string>
+    <string name="bottle_image">bild på flaska</string>
+    <string name="take_photo">Ta foto</string>
+    <string name="save">Spara</string>
+    <string name="descr_hint">Description</string>
+    <string name="delete_salute">Do you really want to delete this salute?</string>
+    <string name="ok">Yes</string>
+    <string name="no">No</string>
+    <string name="confirm_delete">Confirm delete</string>
+    <string name="listimg">preview</string>
+    <string name="dummy">dummy</string>
+    <string name="scan">scan bottle</string>
+    <string name="scan_bottle">Scan a bottle</string>
+
+</resources>

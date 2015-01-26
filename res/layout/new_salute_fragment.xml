@@ -1,0 +1,64 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+  	android:orientation="vertical">
+
+<EditText
+    android:id="@+id/name"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:hint="@string/name_hint"
+    android:inputType="textPersonName" />        
+    
+<RatingBar
+    android:id="@+id/rating"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:layout_marginBottom="5dp"
+    android:layout_marginTop="5dp"
+    android:numStars="5"
+    android:rating="0.0"
+    android:stepSize="0.5" />
+
+<ImageView
+    android:id="@+id/image"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:scaleType="centerInside"
+    android:contentDescription="@string/bottle_image"
+    />
+
+<Button 
+    android:id="@+id/photo_button"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:text="@string/take_photo"
+    />
+
+
+<EditText
+    android:id="@+id/descr"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:hint="@string/descr_hint"
+    android:inputType="text" />
+
+<Button 
+    android:id="@+id/add_button"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:text="@string/save"
+    />
+
+</LinearLayout>
+</ScrollView>
+<!--     android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+ -->
